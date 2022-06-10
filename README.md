@@ -18,9 +18,11 @@ To get the driver implementation for resistive touchscreen, please contact with 
 
 # Compiling LVGL in Buildroot via internal toolchain
 1. Add GCC cross toolchain path into the environment variable PATH
+
    $ export PATH=${BR2_DIR}/output/host/usr/bin:$PATH
    
 2. Launch the make command to compile LVGL
+
    $ make CC=aarch64-nuvoton-linux-gnu-gcc LDFLAGS="-lts $LDFLAGS"
    
  To deploy the LVGL demo, copy the out executable binary file 'demo' to target device.
