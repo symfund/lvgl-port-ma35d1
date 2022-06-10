@@ -2,6 +2,9 @@
 #include "lvgl/demos/lv_demos.h"
 #include "lv_drivers/display/fbdev.h"
 #include "lv_drivers/indev/evdev.h"
+#if USE_TSLIB
+#include "lv_drivers/indev/tslib_drv.h"
+#endif
 #include <unistd.h>
 #include <pthread.h>
 #include <time.h>
@@ -33,13 +36,23 @@ int main(void)
     disp_drv.ver_res    = 480;
     lv_disp_drv_register(&disp_drv);
 
+#if (USE_TSLIB)
+    tslib_init();
+#else
     evdev_init();
+#endif
+
     static lv_indev_drv_t indev_drv_1;
     lv_indev_drv_init(&indev_drv_1); /*Basic initialization*/
     indev_drv_1.type = LV_INDEV_TYPE_POINTER;
 
     /*This function will be called periodically (by the library) to get the mouse position and state*/
+#if (USE_TSLIB)
+    indev_drv_1.read_cb = tslib_read;
+#else
     indev_drv_1.read_cb = evdev_read;
+#endif
+
     lv_indev_t *mouse_indev = lv_indev_drv_register(&indev_drv_1);
 
 

@@ -392,6 +392,12 @@
 /*No settings*/
 #endif
 
+/*---------------
+ *  TSLIB
+ *--------------*/
+#ifndef USE_TSLIB
+#  define USE_TSLIB        0
+#endif
 
 /*---------------------------------------
  * Mouse or touchpad on PC (using SDL)
