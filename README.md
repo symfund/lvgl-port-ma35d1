@@ -13,3 +13,5 @@ For capacitive touchscreen, LVGL uses the evdev driver to read mouse pointer pos
 https://github.com/symfund/lv_port_linux_frame_buffer.git
 
 For resistive and capacitive touchscreens, use this repository lv-port-ma35d1 instead.
+
+To get the driver implementation for resistive touchscreen, please contact with **SalesSupport@nuvoton.com**
