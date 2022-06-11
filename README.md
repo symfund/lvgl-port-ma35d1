@@ -14,7 +14,7 @@ https://github.com/symfund/lv_port_linux_frame_buffer.git
 
 For resistive and capacitive touchscreens, use this repository lv-port-ma35d1 instead.
 
-To get driver implementation for the resistive touchscreen, execute the following command on the command line
+To get driver implementation for the resistive touchscreen, execute the command
 `git submodule update --init --recursive --remote`
 
 # Compiling LVGL in Buildroot via internal toolchain
