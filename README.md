@@ -12,6 +12,7 @@ To get driver implementation for the resistive touchscreen, execute the command
 1. Add GCC cross toolchain path into the environment variable PATH
 
    `$ export PATH=${BR2_DIR}/output/host/usr/bin:$PATH`
+   
    where **BR2_DIR** denotes the path to the directory of buildroot.
    
 2. Launch the make command to compile LVGL
