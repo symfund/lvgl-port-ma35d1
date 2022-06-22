@@ -190,6 +190,10 @@
 #  ifndef LV_WAYLAND_XDG_SHELL
 #    define LV_WAYLAND_XDG_SHELL 0
 #  endif
+/* Support for Wayland timer */
+#ifndef LV_WAYLAND_TIMER_HANDLER
+#    define LV_WAYLAND_TIMER_HANDLER 1
+# endif
 #endif
 
 /*----------------
