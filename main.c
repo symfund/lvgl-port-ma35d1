@@ -41,6 +41,9 @@ int main(void)
     lv_obj_set_width(label, 150);  /*Set smaller width to make the lines wrap*/
     lv_obj_set_style_text_align(label, LV_TEXT_ALIGN_CENTER, 0);
     lv_obj_align(label, LV_ALIGN_CENTER, 0, -40);
+	
+    pfd.fd = lv_wayland_get_fd();
+    pfd.events = POLLIN;
 
     while (1) {
         time_till_next = lv_wayland_timer_handler();
