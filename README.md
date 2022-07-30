@@ -20,9 +20,12 @@ To get driver implementation for the resistive touchscreen, execute the command
    `$ make CC=aarch64-nuvoton-linux-gnu-gcc LDFLAGS="-lts $LDFLAGS"`
    
 3. To deploy the LVGL demo, copy the out executable binary file 'demo' to target device.
- 
+
+![Wayland Protocols Code Generator](/Untitled.png)
+
 # LVGL with Wayland on MA35D1
 
 ![LVGL with Wayland](/IMG_2781.PNG)
 
+# Wayland Screenshooter
 ![LVGL with Wayland](/gadgets.png)
