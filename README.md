@@ -21,7 +21,7 @@ To get driver implementation for the resistive touchscreen, execute the command
    
 3. To deploy the LVGL demo, copy the out executable binary file 'demo' to target device.
 
-![Wayland Protocols Code Generator](/Untitled.png)
+![Wayland Protocols Code Generator](/code-generator.png)
 
 # LVGL with Wayland on MA35D1
 
