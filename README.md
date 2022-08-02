@@ -26,7 +26,7 @@ To get driver implementation for the resistive touchscreen, execute the command
 
 # LVGL with Wayland on MA35D1
 
-![LVGL with Wayland](/IMG_2781.PNG)
+![LVGL with Wayland](/lvgl.png)
 
 # Wayland Screenshooter
 ![LVGL with Wayland](/gadgets.png)
