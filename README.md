@@ -30,3 +30,6 @@ To get driver implementation for the resistive touchscreen, execute the command
 
 # Wayland Screenshooter
 ![LVGL with Wayland](/lvgl.png)
+
+# 2D Transformation Software Implementaton Wayland Based Analog Clock LVGL Demo
+![Analog Clock](/egl-960.gif)
