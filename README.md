@@ -43,5 +43,6 @@ To get driver implementation for the resistive touchscreen, execute the command
 ```
 
 The login user name is **root**.
+press **Ctrl+Alt+F** to enter/leave **fullscreen**
 
 ![LVGL in QEMU](/lvgl-in-qemu.png)
