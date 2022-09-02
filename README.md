@@ -42,4 +42,6 @@ To get driver implementation for the resistive touchscreen, execute the command
    # weston-simple-egl &
 ```
 
+The login user name is **root**.
+
 ![LVGL in QEMU](/lvgl-in-qemu.png)
