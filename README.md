@@ -34,7 +34,7 @@ To get driver implementation for the resistive touchscreen, execute the command
 # LVGL in QEMU
 1. Install the **QEMU64 for Windows 64 bit** from site **https://qemu.weilnetz.de/w64/**
 2. Double click the batch file **lvgl-port-ma35d1\qemu\launcher.bat** to run LVGL with Wayland backend in QEMU Linux virtual machine.
-3. Lauch the **weston-terminal** by click the terminal icon in title bar, execute the following demos from the command line
+3. Lauch the **weston-terminal** by clicking the terminal icon in title bar, execute the following demos from the command line
 ```
    # calendar &
    # sticky-notes &
