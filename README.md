@@ -31,6 +31,13 @@ To get driver implementation for the resistive touchscreen, execute the command
 # 2D Transformation Software Implementaton Wayland Based Analog Clock LVGL Demo
 ![Analog Clock](/egl-960.gif)
 
+# Qt5 and LVGL Coexisting in Wayland
+Home Icon Menu and IVI Speedometer/Dashboard developed by Qt 5
+
+Analog Clock and Sticky Notes developed by LVGL
+
+![qt5 lvgl coexising](/screenshots/Qt5-LVGL-Coexisting.png)
+
 # LVGL in QEMU
 1. Install the **QEMU64 for Windows 64 bit** from site **https://qemu.weilnetz.de/w64/**
 2. Double click the batch file **lvgl-port-ma35d1\qemu\launcher.bat** to run LVGL with Wayland backend in QEMU Linux virtual machine.
