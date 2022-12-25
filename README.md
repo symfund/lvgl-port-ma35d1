@@ -44,6 +44,9 @@ Analog Clock and Sticky Notes developed by LVGL
 # Wayland Calendar 2022
 ![LVGL Wayland Calendar 2022](/screenshots/lvgl-wayland-calendar.png)
 
+# LVGL Wayland Client W/O Title (Decorations)
+![LVGL Wayland Title](/screenshots/lvgl-wayland-decorations.png)
+
 # LVGL in QEMU
 1. Install the **QEMU64 for Windows 64 bit** from site **https://qemu.weilnetz.de/w64/**
 2. Double click the batch file **lvgl-port-ma35d1\qemu\launcher.bat** to run LVGL with Wayland backend in QEMU Linux virtual machine.
