@@ -44,6 +44,10 @@ Analog Clock and Sticky Notes developed by LVGL
 # Wayland Calendar 2022
 ![LVGL Wayland Calendar 2022](/screenshots/lvgl-wayland-calendar.png)
 
+# Wayland QRCode Generator
+![LVGL Wayland QRCode Generator](/screenshots/qrcode-logo.png)
+![LVGL Wayland QRCode Generator](/screenshots/qrcode-keyboard.png)
+
 # LVGL Wayland Client W/O Title (Decorations)
 ![LVGL Wayland Title](/screenshots/lvgl-wayland-decorations.png)
 
