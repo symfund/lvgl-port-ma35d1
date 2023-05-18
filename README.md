@@ -1,6 +1,9 @@
 # FreeRTOS with LVGL on N9H30 (ARM926)
 https://github.com/OpenNuvoton/lv_port_n9h30_freertos
 
+# LVGL on N9H20 (non-OS)
+https://github.com/OpenNuvoton/lv_port_n9h20
+
 # (Wayland) Linux with LVGL on MA35D1 (AARCH64)
 
 For capacitive touchscreen, LVGL uses the evdev driver to talk to touch panel. However, it is still possible to use the deprecated repository
