@@ -2,9 +2,7 @@
 #include "lvgl/demos/lv_demos.h"
 #include "lv_drivers/display/fbdev.h"
 #include "lv_drivers/indev/evdev.h"
-#if USE_TSLIB
 #include "lv_drivers/indev/tslib_drv.h"
-#endif
 #include <unistd.h>
 #include <pthread.h>
 #include <time.h>
