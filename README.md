@@ -1,3 +1,7 @@
+# THIS REPOSITORY WILL BE DEPRECATED!
+
+# For developing LVGL for Linux with or without Wayland on MA35D1 using resistive or capacitive touchscreens, please contact Nuvoton sales representative.
+
 # FreeRTOS with LVGL on N9H30 (ARM926)
 https://github.com/OpenNuvoton/lv_port_n9h30_freertos
 
@@ -27,7 +31,6 @@ To get driver implementation for the resistive touchscreen, execute the command
    
 3. To deploy the LVGL demo, copy the out executable binary file 'demo' to target device.
 
-# For using Wayland on MA35D1, please contact Nuvoton sales representative
 ![Wayland Protocols Code Generator](/wayland-protocol-code-generator.png)
 
 # LVGL with Wayland on MA35D1
